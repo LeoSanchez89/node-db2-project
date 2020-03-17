@@ -8,7 +8,7 @@ exports.up = function(knex) {
         tbl.string("model", 255).notNullable().index();
         tbl.integer("mileage", 100).notNullable().index();
         tbl.string("transmission", 100).index();
-        tbl.string("title status", 255).index();
+        tbl.string("title_status", 255).index();
   })
 };
 
